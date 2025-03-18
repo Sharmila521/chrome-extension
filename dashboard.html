@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Productivity Analytics</h1>
+    <p>Track your time spent on different websites.</p>
+
+    <table id="analytics-table">
+        <thead>
+            <tr>
+                <th>Website</th>
+                <th>Time Spent (min)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td colspan="2">Loading data...</td></tr>
+        </tbody>
+    </table>
+
+    <canvas id="chart"></canvas>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
